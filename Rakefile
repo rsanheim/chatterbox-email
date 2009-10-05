@@ -32,6 +32,8 @@ task :examples => :check_dependencies
 
 task :default => :examples
 
+task :release => [:default, "gemcutter:release"]
+
 require 'rake/rdoctask'
 Rake::RDocTask.new do |rdoc|
   if File.exist?('VERSION')
