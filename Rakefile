@@ -4,8 +4,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "chatterbox-email"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Send emails via chatterbox}
+    gem.description = %Q{Send emails via chatterbox - see chatterbox main project for details}
     gem.email = "rsanheim@gmail.com"
     gem.homepage = "http://github.com/rsanheim/chatterbox-email"
     gem.authors = ["Rob Sanheim"]
